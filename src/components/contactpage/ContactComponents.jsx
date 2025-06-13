@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useRef, useState } from 'react';
 
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
-
+import { emailjs } from '@emailjs/browser';
 
 const containerVariants = {
   hidden: { opacity: 0 },

@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { AppProvider } from '@/components/context/AppContext';
 
 import './globals.css';
-import Navbar from './../components/navbar/NavbarComponents';
+
 
 // Charger les polices
 const geistSans = Geist({
